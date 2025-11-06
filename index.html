@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="HU">
+
 <head>
 	<meta charset="UTF-8" />
 	<title>Romhányi József</title>
@@ -59,7 +60,8 @@
 		<p>S evezzevel ava teve<br />
 			levelkévét kivilevelhevelteve.</p>
 		<p id="rohamnyi"><sup>*</sup>Született: 1921. március 8. (Nagytétény) - Elhunyt: 1983. május 7. (Budapest)</p>
-		<p><a href="http://www.hirlevelplusz.hu/teve-fohasza-ime-egy-bizonyitek-hogy-romhanyi-jozsef-egy-zseni-volt-video/"id="jobbra">Forras</a></p>
+		<p><a href="http://www.hirlevelplusz.hu/teve-fohasza-ime-egy-bizonyitek-hogy-romhanyi-jozsef-egy-zseni-volt-video/"
+				id="jobbra">Forras</a></p>
 
 		<hr>
 
@@ -67,25 +69,42 @@
 
 		<p>Egy oázisban tevék és struccok mászkálnak. Összesen 24 fejük és 58 lábuk van. Hány teve és hány strucc van az
 			oázisban?</p>
-			<img src="oazis.png" alt="Oázis" title="Oázis" class="tevekep" id="oazis">
+		<img src="oazis.png" alt="Oázis" title="Oázis" class="tevekep" id="oazis">
 
 
-			<form action="">
-				<Label for="nev">Név: </Label>
-				<input type="text" id="nev">
-				<br>
+		<form action="">
+			<Label for="nev">Név: </Label>
+			<input type="text" id="nev">
+			<br>
 
-				<input type="radio" id="true">
-				<label for="true">Igaz</label>
-				<br>
-				<input type="radio" id="false">
-				<label for="false"></label>
-				<br>
-				<button>Tip</button>
-				<br>
+			<label for="legs">Hány lába van egy tevének? (Kiegészítendő kérdő mondat)</label>
+			<input type="number" id="legs">
 
-				<input type="submit" value="Küldés">
-			</form>
+			<p>Szereted a tevéket? (eldöntendő kérdő mondat)</p>
+			<input type="radio" id="true" name="teve">
+			<label for="true">Igaz</label>
+			<br>
+			<input type="radio" id="false" name="teve">
+			<label for="false">Hamis</label>
+			<br>
+
+			<p>Mit esznek a tevék?</p>
+			<input type="checkbox" name="x1" id="x1">
+			<label for="x1">Kaktusz</label>
+
+			<input type="checkbox" name="x2" id="x2">
+			<label for="x2">Homok</label>
+
+			<input type="checkbox" name="x3" id="x3">
+			<label for="x3">Dinnye</label>
+
+
+
+			<button>Tip</button>
+			<br>
+
+			<input type="submit" value="Küldés">
+		</form>
 
 		<p>Teve: </p>
 		<p>Strucc: </p>
